@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style>
+        #b_name{
+                text-align: center;padding-left: 10px; padding-right: 10px;color: red;border: 4px solid blue;width: 500px;border-radius: 65px;background-color:white;border-style:ridge; text-align: center; padding-top: 0px; margin-left: 430px ;font-size: 25px;
+            }
+        body{
+            color:white;
+            background-color: black;
+
+        }    
+
+        </style>
+    </head>
+    <body>
+        <div id="b_name"><h1><a href="Homepage_2.html"> ADez Electronics</a></h1></div> 
+        <br><br>
+        <script>
+            var amount=prompt("Enter product cost");
+            var interest=7;
+            var time=prompt("Enter time in years");
+            var int=(amount*interest*time)/100;
+            
+            
+            
+            
+            var total=parseInt(int)+parseFloat(amount);
+            var tm=time*12;
+            document.write("Total Interest is "+int +" and total amount is "+total);
+            // document.write(int);
+            // document.write(total);
+         
+           
+            
+        </script>
+    </body>
+</html>
